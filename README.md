@@ -1,4 +1,4 @@
-﻿# ðŸ“œ ConstituiÃ§Ã£o dos Agentes
+# ðŸ“œ ConstituiÃ§Ã£o dos Agentes
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,7 +6,7 @@
 </div>
 
 
-[![ConstituiÃ§Ã£o dos Agentes](guia/assets/banner.jpg)](https://inematds.github.io/constituicao-agentes/guia/)
+[![ConstituiÃ§Ã£o dos Agentes](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/
 
 **ðŸ‡§ðŸ‡· [PortuguÃªs](README.md) Â· ðŸ‡ºðŸ‡¸ [English](README.en.md) Â· ðŸ‡ªðŸ‡¸ [EspaÃ±ol](README.es.md)**
 
@@ -16,13 +16,13 @@ Este projeto explica uma ideia: a Anthropic atrai talentos com propÃ³sito e au
 
 ## ðŸ“– Guia de uso
 
-Guia completo (landing + passo a passo): **https://inematds.github.io/constituicao-agentes/guia/**
+Guia completo (landing + passo a passo): **https://linnoff88-dev.github.io/
 
 ðŸŽ¬ VÃ­deo: https://www.youtube.com/shorts/InaeW8YdlEE
 
 ## ðŸŽ“ Curso rÃ¡pido
 
-5 aulas de uns 15 minutos (formato v6.2): **https://inematds.github.io/constituicao-agentes-v62/**
+5 aulas de uns 15 minutos (formato v6.2): **https://linnoff88-dev.github.io/
 
 ## O que tem aqui
 
@@ -38,7 +38,7 @@ Guia completo (landing + passo a passo): **https://inematds.github.io/constituic
 ## Uso rÃ¡pido
 
 ```bash
-git clone https://github.com/inematds/constituicao-agentes
+git clone https://github.com/linnoff88-dev/constituicao-agentes
 cd constituicao-agentes
 cp modelo/constituicao-modelo.md minha-constituicao.md
 # preencha (Ã  mÃ£o ou com o prompt-rascunho) e confira:
@@ -60,7 +60,7 @@ SignalFire, State of Talent Report 2025 Â· [ConstituiÃ§Ã£o do Claude](http
 
 ---
 
-AnÃ¡lise de Nei Maldaner Â· [INEMA.CLUB](https://inema.club) Â· conteÃºdo aberto e gratuito.
+AnÃ¡lise de Nei Maldaner Â· [ARCKHÉ AI](https://ARCKHÉ AI) Â· conteÃºdo aberto e gratuito.
 
 ---
 

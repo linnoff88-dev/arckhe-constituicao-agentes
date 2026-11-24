@@ -1,22 +1,22 @@
-# 📜 Agents' Constitution
+# ðŸ“œ Agents' Constitution
 
-[![Agents' Constitution](guia/assets/banner-en.jpg)](https://inematds.github.io/constituicao-agentes/guia/en/)
+[![Agents' Constitution](guia/assets/banner-en.jpg)](https://linnoff88-dev.github.io/
 
-**🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
+**ðŸ‡§ðŸ‡· [PortuguÃªs](README.md) Â· ðŸ‡ºðŸ‡¸ [English](README.en.md) Â· ðŸ‡ªðŸ‡¸ [EspaÃ±ol](README.es.md)**
 
 ## What it is
 
 This project explains one idea: Anthropic attracts talent with purpose and autonomy, and it also writes a "constitution" that teaches Claude to decide when there is no ready-made rule. In both cultures, the goal is the same: to shape people who know how to judge, not just obey. Here you see what the data proves and what is still a hypothesis, and you get a kit to write the constitution of your company's AI agents. To use it, just read and fill in the template; the optional checker requires Python 3.
 
-## 📖 User guide
+## ðŸ“– User guide
 
-Full guide (landing + step by step): **https://inematds.github.io/constituicao-agentes/guia/en/**
+Full guide (landing + step by step): **https://linnoff88-dev.github.io/
 
-🎬 Video: https://www.youtube.com/shorts/InaeW8YdlEE
+ðŸŽ¬ Video: https://www.youtube.com/shorts/InaeW8YdlEE
 
-## 🎓 Quick course
+## ðŸŽ“ Quick course
 
-5 lessons of about 15 minutes: **https://inematds.github.io/constituicao-agentes-v62/en/**
+5 lessons of about 15 minutes: **https://linnoff88-dev.github.io/
 
 ## What's here
 
@@ -34,7 +34,7 @@ The kit files are in Portuguese.
 ## Quick start
 
 ```bash
-git clone https://github.com/inematds/constituicao-agentes
+git clone https://github.com/linnoff88-dev/constituicao-agentes
 cd constituicao-agentes
 cp modelo/constituicao-modelo.md minha-constituicao.md
 # fill it in (by hand or with the drafting prompt) and check:
@@ -44,16 +44,16 @@ python3 scripts/checar_constituicao.py minha-constituicao.md
 ## The cycle
 
 ```
-Mission + Constitution + Context → Agents + Tools + Execution
-→ Results + Evaluation → Feedback + Revision → new cycle
+Mission + Constitution + Context â†’ Agents + Tools + Execution
+â†’ Results + Evaluation â†’ Feedback + Revision â†’ new cycle
 ```
 
 A change only goes in if the test cases do not get worse.
 
 ## Sources
 
-SignalFire, State of Talent Report 2025 · [Claude's constitution](https://www.anthropic.com/constitution) (Anthropic, 01/22/2026, CC0).
+SignalFire, State of Talent Report 2025 Â· [Claude's constitution](https://www.anthropic.com/constitution) (Anthropic, 01/22/2026, CC0).
 
 ---
 
-Analysis by Nei Maldaner · [INEMA.CLUB](https://inema.club) · open and free content.
+Analysis by Nei Maldaner Â· [ARCKHÉ AI](https://ARCKHÉ AI) Â· open and free content.
