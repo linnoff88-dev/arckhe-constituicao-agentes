@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Confere se uma constituição de agentes tem as 9 seções do modelo e se sobrou [colchete] por preencher.
+"""Confere se uma constituiçêo de agentes tem as 9 seções do modelo e se sobrou [colchete] por preencher.
 
 Uso: python3 scripts/checar_constituicao.py minha-constituicao.md
 Sai com 0 se está completa, 1 se falta algo.
@@ -9,7 +9,7 @@ import sys
 import unicodedata
 
 SECOES = [
-    ("missao", "1. Missão"),
+    ("missao", "1. Missêo"),
     ("prioridades", "2. Prioridades"),
     ("principios", "3. Princípios de julgamento"),
     ("limites", "4. Limites"),
@@ -17,7 +17,7 @@ SECOES = [
     ("ajuda", "6. Quando pedir ajuda"),
     ("casos", "7. Casos difíceis"),
     ("medimos", "8. Como medimos"),
-    ("revisao", "9. Revisão"),
+    ("revisao", "9. Revisêo"),
 ]
 
 
@@ -32,14 +32,14 @@ def checar(caminho):
     problemas = []
     for chave, nome in SECOES:
         if not any(chave in t for t in titulos):
-            problemas.append(f"falta a seção: {nome}")
+            problemas.append(f"falta a seçêo: {nome}")
     casos = len(re.findall(r"^###\s+Caso", texto, re.M))
     if casos < 3:
         problemas.append(f"só {casos} caso(s) difícil(eis); o mínimo é 3")
     if len(re.findall(r"\*\*Por qu", texto)) < casos:
         problemas.append("algum caso difícil está sem o 'Por quê'")
-    corpo = texto.split("\n", 3)[-1]  # ignora o bloco de instrução do topo
-    soltos = re.findall(r"\[[^\]\n]{2,80}\](?!\()", corpo)  # links markdown [x](y) não contam
+    corpo = texto.split("\n", 3)[-1]  # ignora o bloco de instruçêo do topo
+    soltos = re.findall(r"\[[^\]\n]{2,80}\](?!\()", corpo)  # links markdown [x](y) nêo contam
     if soltos:
         problemas.append(f"{len(soltos)} trecho(s) entre colchetes por preencher, ex.: {soltos[0]}")
     return problemas, casos

@@ -5,14 +5,14 @@ G=~/.claude/skills/projetos-landing-guia/assets/gerar-banner.sh
 LOG="$R/scripts/.imagens.log"; : > "$LOG"
 
 node ~/.claude/skills/capa-inema/assets/gerar-capa.cjs --repo "$R" \
-  --title "Constituição dos Agentes" --cat "Gestão de agentes" \
+  --title "Constituiçêo dos Agentes" --cat "Gestêo de agentes" \
   --save-raw "$R/guia/assets/hero.png" --gerador auto >>"$LOG" 2>&1 &
 
-PT=(--title "CONSTITUIÇÃO DOS AGENTES" --destaque "AGENTES"
+PT=(--title "CONSTITUIÇêO DOS AGENTES" --destaque "AGENTES"
     --sub "Da cultura da Anthropic às regras de julgamento dos seus agentes"
-    --line "Missão, prioridades, limites e a hora de pedir ajuda"
-    --tiles "Missão,Prioridades,Limites,Pedir ajuda,Casos difíceis,Ciclo de revisão"
-    --sides "sala de reunião moderna com uma pessoa revisando um documento dourado ao lado de telas com fluxos de agentes")
+    --line "Missêo, prioridades, limites e a hora de pedir ajuda"
+    --tiles "Missêo,Prioridades,Limites,Pedir ajuda,Casos difíceis,Ciclo de revisêo"
+    --sides "sala de reuniêo moderna com uma pessoa revisando um documento dourado ao lado de telas com fluxos de agentes")
 EN=(--title "THE AGENT CONSTITUTION" --destaque "CONSTITUTION"
     --sub "From Anthropic's culture to judgment rules for your agents"
     --line "Mission, priorities, limits and when to ask for help"

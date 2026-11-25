@@ -1,22 +1,22 @@
-# Prompt: rascunho da constituição com um assistente de IA
+# Prompt: rascunho da constituiçêo com um assistente de IA
 
 Cole no Claude, ChatGPT ou Gemini, troque o que está entre `< >` e anexe o arquivo
 `constituicao-modelo.md`. O assistente faz um rascunho; **quem decide e assina é você**.
 
 ```
-Você vai me ajudar a escrever a constituição dos agentes de IA da minha empresa.
+Você vai me ajudar a escrever a constituiçêo dos agentes de IA da minha empresa.
 
 Empresa: <nome e o que faz, em uma frase>
-O que os agentes vão fazer: <ex.: atender clientes no WhatsApp e marcar horários>
+O que os agentes vêo fazer: <ex.: atender clientes no WhatsApp e marcar horários>
 Quem é o responsável humano: <nome e cargo>
 Regras que já existem: <ex.: política de desconto, LGPD, horário de atendimento>
 O que me dá medo que o agente faça: <ex.: prometer prazo, dar desconto, falar de saúde>
 
 Use exatamente as 9 seções do modelo anexo. Regras:
-1. Prioridades na ordem: segurança e supervisão humana, honestidade, regras da empresa, ser útil.
-2. Escreva pelo menos 3 casos difíceis reais do meu negócio, cada um com Situação, O que fazer e Por quê.
-3. Na tabela de autonomia, use os níveis 0 (não toca), 1 (propõe), 2 (faz e avisa) e 3 (faz sozinho).
-4. Não invente regra que eu não informei: quando faltar informação, deixe [entre colchetes] e me pergunte no fim.
+1. Prioridades na ordem: segurança e supervisêo humana, honestidade, regras da empresa, ser útil.
+2. Escreva pelo menos 3 casos difíceis reais do meu negócio, cada um com Situaçêo, O que fazer e Por quê.
+3. Na tabela de autonomia, use os níveis 0 (nêo toca), 1 (propõe), 2 (faz e avisa) e 3 (faz sozinho).
+4. Nêo invente regra que eu nêo informei: quando faltar informaçêo, deixe [entre colchetes] e me pergunte no fim.
 5. Linguagem simples, frases curtas.
 ```
 

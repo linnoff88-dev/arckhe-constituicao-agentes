@@ -1,37 +1,37 @@
-# ðŸ“œ ConstituciÃ³n de los Agentes
+# ê°Å¸âÅ ConstituciêÂ³n de los Agentes
 
-[![ConstituciÃ³n de los Agentes](guia/assets/banner-es.jpg)](https://linnoff88-dev.github.io/
+[![ConstituciêÂ³n de los Agentes](guia/assets/banner-es.jpg)](https://linnoff88-dev.github.io/
 
-**ðŸ‡§ðŸ‡· [PortuguÃªs](README.md) Â· ðŸ‡ºðŸ‡¸ [English](README.en.md) Â· ðŸ‡ªðŸ‡¸ [EspaÃ±ol](README.es.md)**
+**ê°Å¸â¡Â§ê°Å¸â¡Â· [PortuguêÂªs](README.md) êÂ· ê°Å¸â¡Âºê°Å¸â¡Â¸ [English](README.en.md) êÂ· ê°Å¸â¡Âªê°Å¸â¡Â¸ [EspaêÂ±ol](README.es.md)**
 
-## QuÃ© es
+## QuêÂ© es
 
-Este proyecto explica una idea: Anthropic atrae talento con propÃ³sito y autonomÃ­a, y tambiÃ©n escribe una "constituciÃ³n" que enseÃ±a a Claude a decidir cuando no hay una regla lista. En las dos culturas el objetivo es el mismo: formar a quien sabe juzgar, no solo obedecer. AquÃ­ ves quÃ© prueban los datos y quÃ© sigue siendo hipÃ³tesis, y recibes un kit para escribir la constituciÃ³n de los agentes de IA de tu empresa. Para usarlo basta leer y completar la plantilla; el verificador opcional requiere Python 3.
+Este proyecto explica una idea: Anthropic atrae talento con propêÂ³sito y autonomêÂ­a, y tambiêÂ©n escribe una "constituciêÂ³n" que enseêÂ±a a Claude a decidir cuando no hay una regla lista. En las dos culturas el objetivo es el mismo: formar a quien sabe juzgar, no solo obedecer. AquêÂ­ ves quêÂ© prueban los datos y quêÂ© sigue siendo hipêÂ³tesis, y recibes un kit para escribir la constituciêÂ³n de los agentes de IA de tu empresa. Para usarlo basta leer y completar la plantilla; el verificador opcional requiere Python 3.
 
-## ðŸ“– GuÃ­a de uso
+## ê°Å¸ââ GuêÂ­a de uso
 
-GuÃ­a completa (landing + paso a paso): **https://linnoff88-dev.github.io/
+GuêÂ­a completa (landing + paso a paso): **https://linnoff88-dev.github.io/
 
-ðŸŽ¬ Video: https://www.youtube.com/shorts/InaeW8YdlEE
+ê°Å¸Å½Â¬ Video: https://www.youtube.com/shorts/InaeW8YdlEE
 
-## ðŸŽ“ Curso rÃ¡pido
+## ê°Å¸Å½â Curso rêÂ¡pido
 
 5 clases de unos 15 minutos: **https://linnoff88-dev.github.io/
 
-## QuÃ© hay aquÃ­
+## QuêÂ© hay aquêÂ­
 
-Los archivos del kit estÃ¡n en portuguÃ©s.
+Los archivos del kit estêÂ¡n en portuguêÂ©s.
 
-| Archivo | Para quÃ© sirve |
+| Archivo | Para quêÂ© sirve |
 |---|---|
-| [`docs/LOGICA.md`](docs/LOGICA.md) | El anÃ¡lisis: dos culturas, quÃ© prueban los nÃºmeros, Maslow, constituciÃ³n de Claude, entrenamiento Ã— contexto, el puente con la gestiÃ³n |
+| [`docs/LOGICA.md`](docs/LOGICA.md) | El anêÂ¡lisis: dos culturas, quêÂ© prueban los nêÂºmeros, Maslow, constituciêÂ³n de Claude, entrenamiento êâ contexto, el puente con la gestiêÂ³n |
 | [`modelo/constituicao-modelo.md`](modelo/constituicao-modelo.md) | Plantilla en 9 secciones para completar |
 | [`modelo/prompt-rascunho.md`](modelo/prompt-rascunho.md) | Prompt para que un asistente de IA haga el primer borrador |
-| [`modelo/casos-de-teste.md`](modelo/casos-de-teste.md) | 8 casos para probar el agente antes y despuÃ©s de cada versiÃ³n |
-| [`exemplos/clinica-atendimento.md`](exemplos/clinica-atendimento.md) | Ejemplo ficticio completo (clÃ­nica, atenciÃ³n por WhatsApp) |
-| [`scripts/checar_constituicao.py`](scripts/checar_constituicao.py) | Verificador: secciones, casos difÃ­ciles, "Por quÃ©" y corchetes por completar |
+| [`modelo/casos-de-teste.md`](modelo/casos-de-teste.md) | 8 casos para probar el agente antes y despuêÂ©s de cada versiêÂ³n |
+| [`exemplos/clinica-atendimento.md`](exemplos/clinica-atendimento.md) | Ejemplo ficticio completo (clêÂ­nica, atenciêÂ³n por WhatsApp) |
+| [`scripts/checar_constituicao.py`](scripts/checar_constituicao.py) | Verificador: secciones, casos difêÂ­ciles, "Por quêÂ©" y corchetes por completar |
 
-## Uso rÃ¡pido
+## Uso rêÂ¡pido
 
 ```bash
 git clone https://github.com/linnoff88-dev/constituicao-agentes
@@ -44,16 +44,16 @@ python3 scripts/checar_constituicao.py minha-constituicao.md
 ## El ciclo
 
 ```
-MisiÃ³n + ConstituciÃ³n + Contexto â†’ Agentes + Herramientas + EjecuciÃ³n
-â†’ Resultados + EvaluaciÃ³n â†’ RetroalimentaciÃ³n + RevisiÃ³n â†’ nuevo ciclo
+MisiêÂ³n + ConstituciêÂ³n + Contexto ê¢â â Agentes + Herramientas + EjecuciêÂ³n
+ê¢â â Resultados + EvaluaciêÂ³n ê¢â â RetroalimentaciêÂ³n + RevisiêÂ³n ê¢â â nuevo ciclo
 ```
 
 Un cambio solo entra si los casos de prueba no empeoran.
 
 ## Fuentes
 
-SignalFire, State of Talent Report 2025 Â· [ConstituciÃ³n de Claude](https://www.anthropic.com/constitution) (Anthropic, 22/01/2026, CC0).
+SignalFire, State of Talent Report 2025 êÂ· [ConstituciêÂ³n de Claude](https://www.anthropic.com/constitution) (Anthropic, 22/01/2026, CC0).
 
 ---
 
-AnÃ¡lisis de Nei Maldaner Â· [ARCKHÉ AI](https://ARCKHÉ AI) Â· contenido abierto y gratuito.
+AnêÂ¡lisis de Nei Maldaner êÂ· [ARCKHê AI](https://ARCKHê AI) êÂ· contenido abierto y gratuito.
