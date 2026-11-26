@@ -4,7 +4,7 @@ R="$(cd "$(dirname "$0")/.." && pwd)"
 G=~/.claude/skills/projetos-landing-guia/assets/gerar-banner.sh
 LOG="$R/scripts/.imagens.log"; : > "$LOG"
 
-node ~/.claude/skills/capa-inema/assets/gerar-capa.cjs --repo "$R" \
+node ~/.claude/skills/capa-ARCKHÉ/assets/gerar-capa.cjs --repo "$R" \
   --title "Constituiçêo dos Agentes" --cat "Gestêo de agentes" \
   --save-raw "$R/guia/assets/hero.png" --gerador auto >>"$LOG" 2>&1 &
 
